@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Changa', cursive;
+  font-size: 20px;
+}
+
+body {
+  background: linear-gradient(-45deg, #ecb4a3, #f0a9c4, #9bd7ec, #87e4ce);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+
+  50% {
+      background-position: 100% 50%;
+  }
+
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  margin: 50px 0;
+  color: black;
+  font-family: 'Lobster Two', cursive;
+  font-weight: 500;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  min-height: 400px;
+  width: 800px;
+  border-radius: 20px;
+  padding: 10px 30px;
+  background-color: rgba(255, 255, 255, 0.336);
+  font-weight: bold;
+}
+
+main #timer {
+  font-size: 50px;
+}
+
+button , input {
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input {
+  margin-right: 10px;
+  padding-left: 5px;
+}
+
+button {
+  font-size: 30px;
+  background-color: #3f3d3e;
+  color: white;
+  padding: 3px 15px;
+  margin: 15px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  
+}
