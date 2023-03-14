@@ -1,3 +1,4 @@
+// Inspirado no timer do prof Gustavo Caetano
 const buttonStart = document.getElementById('start');
 const hour = document.getElementById('hour');
 const minute = document.getElementById('minute');
