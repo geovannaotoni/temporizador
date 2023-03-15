@@ -83,3 +83,27 @@ footer {
   font-weight: bold;
   
 }
+
+@media screen and (max-width: 800px) {
+  h1 , footer {
+    font-size: 30px;
+  }
+  main {
+    max-width: 60%;
+  }
+  #inputs {
+    display: flex;
+    flex-direction: column;
+  }
+  main #timer {
+    font-size: 30px;
+  }
+  input {
+    margin-bottom: 7px;
+    text-align: center;
+  }
+  button {
+    margin: 0px;
+    font-size: 15px;
+  }
+}
