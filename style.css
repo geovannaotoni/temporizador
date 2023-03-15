@@ -86,7 +86,7 @@ footer {
 
 @media screen and (max-width: 800px) {
   h1 , footer {
-    font-size: 30px;
+    font-size: 35px;
   }
   main {
     max-width: 60%;
