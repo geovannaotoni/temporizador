@@ -1,5 +1,6 @@
 # Temporizador
 Projeto pessoal de construção de um temporizador / cronômetro.
+<img src="./temporizador.gif">
 
 ## :computer: Visualize este projeto:
 Acesse pelo GitHub Pages aqui: 
